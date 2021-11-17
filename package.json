@@ -1,0 +1,46 @@
+{
+  "name": "tpay_com_technical_documentation",
+  "version": "1.2.0",
+  "description": "_p_classchanges_disclaimer_Demo_transaction_masspayments_api_key_input_typetext_idtransaction_key_value75f86137a6635df826e3efe2e66f7c9a946fdde1_classui_form_control_label_fortransaction_key_styledisplay_none_idtr_api_labelCOPIED_labelbr_br__Demo_cards_api_key_input_typetext_idcards_key_valueba9a05faa697f9b43f39b84933ff168e373c6496_classui_form_control_label_forcards_key_styledisplay_none_idcards_api_labelCOPIED_labelbr_br__Demo_registration_api_key_input_typetext_idregistration_key_value6c0f5ef6e4d6877abad7fcfb3b5de117ad8b772d_classui_form_control_label_forregistration_key_styledisplay_none_idregistration_api_labelCOPIED_labelbr_br__The_terms_seller_and_merchant_are_used_interchangeably_and_they_both_refer_to_a_person_or_a_company_registered_at_tpay_com_to_accept_online_payments__br_Whenever_term_merchant_panel_is_used_it_refers_to_the_part_of_tpay_com_website_located_at_a_hrefhttps__secure_tpay_com_panel_target_blanksecure_tpay_com_panel_a__br_br_For_sandbox_purposes_use_merchant_demo_account_br_br__ID___1010_Password___demobr_br_Remember_that_this_is_a_shared_account_so_all_data_passed_through_will_be_publicly_visible__p",
+  "license": "Unlicense",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "prepare": "npm run build",
+    "test": "mocha --require @babel/register --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "@babel/cli": "^7.0.0",
+    "superagent": "^5.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-do-expressions": "^7.0.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-function-bind": "^7.0.0",
+    "@babel/plugin-proposal-function-sent": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.0.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^8.0.1",
+    "sinon": "^7.2.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
